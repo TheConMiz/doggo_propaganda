@@ -21,7 +21,7 @@ export const App = () => {
     const [dislikedDogs, setDislikedDogs] = useState([]);
 
 
-    async function getDogBatch() {
+    function getDogBatch() {
         
         const url = "https://api.thedogapi.com/v1/images/search";
         const method = "GET";
